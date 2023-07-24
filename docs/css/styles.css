@@ -1,0 +1,33 @@
+/* This stylesheet is where to add styles for your Shakespeare Home Page */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  /*your style rules go in here */
+}
+
+header {
+
+}
+
+main {
+
+}
+
+section {
+  border: 0;
+}
+
+
+figure {
+ 
+}
+
+footer {
+
+}

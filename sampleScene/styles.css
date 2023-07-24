@@ -1,0 +1,76 @@
+/*stylesheet for A Midsummer Night's dream*/
+body {
+font-family: Georgia, "Times New Roman", Times, serif;
+}
+section,header {
+width:80%;
+margin:5px auto;
+border:0px solid red;
+}
+
+p {
+font-size: 1em;
+line-height: 1.5;
+margin-left:2.5em;
+margin-bottom: 1.7em;
+margin-top: 0;
+padding-left:0;
+}
+
+p.character {
+font-family: "Lucida Grande", Lucida, Verdana, sans-serif;
+margin-left:0;
+margin-bottom: 0;
+font-size:1em;
+text-transform: uppercase;
+border-left:none;
+}
+
+p.verse {
+font-size:.9em;
+margin-bottom:1em;
+border:1px solid silver;
+width:30%;
+padding:5px;
+}
+
+h1 {
+font-size: 2.7em;
+color:red;
+}
+
+/* 	for inline character names */
+
+span.charactername {
+font-variant: small-caps;
+}
+
+/* character colors and borders*/
+
+.quince {
+color: #00c594;
+}
+
+.bottom {
+color:#778900;
+}
+
+.flute {
+color:#8f11ae;
+}
+
+.snout {
+color:#b4104a;
+}
+.snug {
+color:#e6c115;
+}
+
+.starveling {
+color:#1085b0;
+}
+
+img {
+width: 70%;
+border:1px solid gray;
+}
