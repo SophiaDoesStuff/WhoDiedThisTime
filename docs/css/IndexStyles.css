@@ -1,0 +1,22 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+}
+
+nav {
+	position: fixed;
+	width: 100%;
+	left: 0;
+	top: 0;
+	height: 100px;
+	background-color: rgba(199,83,102,1);
+	display: inline-block;
+	border: 3px solid rgba(130,42,57,1);
+	width: 100%;
+}
