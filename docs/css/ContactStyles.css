@@ -7,6 +7,7 @@
 body {
 	margin: 0;
 	padding: 0;
+	background-color: rgba(243,243,243,1);
 }
 
 input[type="checkbox"] {
@@ -102,54 +103,74 @@ nav ul li ul li {
 	}
 }
 
-.centered {
-	position: absolute;
-	top: 45%;
+h1 {
+	margin-top: 1cm;
+	padding-top: 10px;
+	text-align: center;
+	font-size: 30px;
+	color: rgb(78, 77, 77);
+}
+
+main {
+    display: flex;
 	left: 50%;
-	transform: translate(-50%, -50%);
-	font-family: 'Times New Roman', Times, serif;
-	font-size: 100px;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 50%;
+	margin: auto;
+}
+
+.info {
+    color: black;
+    padding: 1cm;
+    flex-basis: 400px;
+    flex-grow: 1;
+    font-size: 17px;
+	justify-content: center;
+}
+
+p {
+    margin-top: 1em;
+	font-size: 19px;
+}
+
+input[type=email] {
+	width: 100%;
+	height: 50px;
+	padding: 12px 20px;
+	margin: 8px 0;
+	box-sizing: border-box;
+	border: 2px solid #ccc;
+	border-radius: 4px;
+	background-color: #f8f8f8;
+	resize: none;
+}
+
+input[type=text] {
+	width: 100%;
+	height: 150px;
+	padding: 12px 20px;
+	box-sizing: border-box;
+	border: 2px solid #ccc;
+	border-radius: 4px;
+	background-color: #f8f8f8;
+	resize: none;
+}
+
+button {
+	background-color: rgba(199,83,102,1);
+	border: none;
+	color: rgba(243,243,243,1);
+	padding: 16px 32px;
+	text-decoration: none;
+	margin: 8px 2px;
+	cursor: pointer;
+	width: 100%;
+}
+
+button:hover {
+	background-color: rgb(255, 183, 196);
+	color: rgba(199,83,102,1);
 	font-style: italic;
-	white-space: nowrap;
-	color: rgb(161, 59, 76);
-	background-color: rgba(255, 255, 255, 0.358);
-	filter: drop-shadow(10px 10px 10px rgb(170, 169, 169));
-	padding: 0.5cm 0.5cm 0.5cm 0.5cm;
-	border-radius: 30px;
-}
-
-@media screen and (max-width: 900px) {
-	.centered {
-		padding-bottom: -10cm;
-		justify-content: center;
-		font-size: 40px;
-		font-style: italic;
-		white-space: nowrap;
-	}
-}
-
-.undercentered {
-	position: absolute;
-	top: 63%;
-	left: 50%;
-	transform: translate(-50%, -50%);
-	font-family: 'Times New Roman', Times, serif;
-	font-size: 50px;
-	font-style: italic;
-	white-space: nowrap;
-	color: rgb(161, 59, 76);
-	background-color: rgba(255, 255, 255, 0.358);
-	filter: drop-shadow(10px 10px 10px rgb(170, 169, 169));
-	padding: 0.5cm 0.5cm 0.5cm 0.5cm;
-	border-radius: 30px;
-}
-
-@media screen and (max-width: 900px) {
-	.undercentered {
-		padding-bottom: -10cm;
-		justify-content: center;
-		font-size: 25px;
-		font-style: italic;
-		white-space: nowrap;
-	}
 }
