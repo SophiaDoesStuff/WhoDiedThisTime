@@ -7,16 +7,58 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 <title>Who Died This Time</title>
-<link rel="stylesheet" href="css/IndexStyles.css"/>
-<script id="applicationScript" type="text/javascript" src="Testing.js"></script>
+<link rel="stylesheet" href="css/AllBooks.css"/>
+<script type="text/javascript">
+
+	function sendToPage(){
+		var input = document.getElementById("search").value;
+		//alert(input);
+		if (input == "Ophelia After All"){
+			location.href = "OpheliaAfterAll.html";
+			return false;
+		}
+	}
+</script>
 </head>
 
 <body>
+
 	<nav>
+		<input type="checkbox" id="toggle">
+		<label for="toggle" class="hamburger">&#9776;</label>
+
 		<ul>
-			<a>Who Died This Time</a>
+			<li><a href="Index.html">Home</a></li>
+			<li><a href="Books.html">Find Books</a></li>
+			<li><a href="Info.html">Project Information</a></li>
+			<li><a href="TWs.html">Trigger Warnings</a></li>
+			<li><a href="Contact.html">Contact</a></li>
 		</ul>
 	</nav>
-	
+
+	<main>
+
+	<section class="info">
+
+		<h1>Search and Find Books</h1>
+		<h3>If we've missed a book you would like us to have on the database, please let us know!</h3>
+	</section>
+
+	<div class="searchbox">
+		<input type="text" method="put" id="search" placeholder="Search" value="">
+		<input type='submit' onclick="sendToPage();"/>
+	</div>
+
+	</main>
+
+	<section class="info2">
+		<h2>Book Directory</h2>
+
+			<span class="titles">
+				<p><a class="Ophelia" href="OpheliaAfterAll.html">● Marie Raqcuel, <i>Ophelia After All</i> </a></p>
+			</span>
+
+	</section>
+
 </body>
 </html>

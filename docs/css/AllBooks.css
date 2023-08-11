@@ -8,6 +8,7 @@ body {
 	margin: 0;
 	padding: 0;
 	background-color: rgba(243,243,243,1);
+	min-width: 600px;
 }
 
 input[type="checkbox"] {
@@ -103,6 +104,14 @@ nav ul li ul li {
 	}
 }
 
+h3 {
+	margin-top: 5px;
+	text-align: center;
+	font-size: 22px;
+	color: grey;
+	font-weight: normal;
+}
+
 h1 {
 	margin-top: 1cm;
 	padding-top: 10px;
@@ -113,20 +122,20 @@ h1 {
 
 main {
 	display: flex;
-	left: 50%;
     flex-direction: row;
     justify-content: center;
     flex-wrap: wrap;
-    width: 50%;
+    width: 45%;
 	margin: auto;
 }
 
 .info {
     color: black;
     padding: 1cm;
-    flex-basis: 400px;
+    flex-basis: 0px;
     flex-grow: 1;
     font-size: 17px;
+	width: 50%;
 	justify-content: center;
 }
 
@@ -135,47 +144,63 @@ p {
 	font-size: 19px;
 }
 
-input[type=email] {
-	width: 100%;
-	height: 50px;
-	padding: 12px 20px;
-	margin: 8px 0;
-	box-sizing: border-box;
-	border: 2px solid #ccc;
-	border-radius: 4px;
-	background-color: #f8f8f8;
-	resize: none;
+.searchbox {
+	margin-top: 6cm;
+	position: absolute;
 }
 
 input[type=text] {
 	width: 100%;
-	height: 150px;
-	padding: 12px 20px;
+	height: 70px;
+	padding: 10px 25px;
 	box-sizing: border-box;
 	border: 2px solid #ccc;
-	border-radius: 4px;
+	border-radius: 40px;
 	background-color: #f8f8f8;
 	resize: none;
 }
 
-button {
+input[type=submit] {
 	background-color: rgba(199,83,102,1);
 	border: none;
 	color: rgba(243,243,243,1);
 	padding: 16px 32px;
+	border-radius: 30px;
 	text-decoration: none;
 	margin: 8px 2px;
 	cursor: pointer;
 	width: 100%;
 }
 
-button:hover {
-	background-color: rgb(255, 183, 196);
-	color: rgba(199,83,102,1);
-	font-style: italic;
+.info2 {
+	display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+	margin-top: 4.5cm;
 }
 
-form {
-	margin-top: 8cm;
+h2 {
+	text-align: center;
+	font-size: 27px;
 	position: absolute;
+	color: rgb(78, 77, 77);
 }
+
+.titles {
+	margin-top: 40px;
+	margin-left: -20cm;
+}
+
+.Ophelia {
+	font-size: 22px;
+	color: black;
+	text-decoration: none;
+}
+
+.Ophelia:hover {
+	text-decoration: underline;
+	color: rgba(130,42,57,1);
+}
+
