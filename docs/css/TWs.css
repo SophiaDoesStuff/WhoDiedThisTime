@@ -7,7 +7,6 @@
 body {
 	margin: 0;
 	padding: 0;
-	background-color: rgba(243,243,243,1);
 	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
@@ -104,6 +103,10 @@ nav ul li ul li {
 	}
 }
 
+p {
+	font-size: 19px;
+}
+
 h1 {
 	margin-top: 1cm;
 	padding-top: 10px;
@@ -114,11 +117,11 @@ h1 {
 
 main {
 	display: flex;
-	left: 50%;
+	left: 80%;
     flex-direction: row;
     justify-content: center;
-    flex-wrap: wrap;
-    width: 50%;
+    flex-wrap: nowrap;
+    width: 70%;
 	margin: auto;
 }
 
@@ -131,52 +134,8 @@ main {
 	justify-content: center;
 }
 
-p {
-    margin-top: 1em;
-	font-size: 19px;
-}
-
-input[type=email] {
-	width: 100%;
-	height: 50px;
-	padding: 12px 20px;
-	margin: 8px 0;
-	box-sizing: border-box;
-	border: 2px solid #ccc;
-	border-radius: 4px;
-	background-color: #f8f8f8;
-	resize: none;
-}
-
-input[type=text] {
-	width: 100%;
-	height: 150px;
-	padding: 12px 20px;
-	box-sizing: border-box;
-	border: 2px solid #ccc;
-	border-radius: 4px;
-	background-color: #f8f8f8;
-	resize: none;
-}
-
-button {
-	background-color: rgba(199,83,102,1);
-	border: none;
-	color: rgba(243,243,243,1);
-	padding: 16px 32px;
-	text-decoration: none;
-	margin: 8px 2px;
-	cursor: pointer;
-	width: 100%;
-}
-
-button:hover {
-	background-color: rgb(255, 183, 196);
-	color: rgba(199,83,102,1);
-	font-style: italic;
-}
-
-form {
-	margin-top: 8cm;
-	position: absolute;
+.Warnings {
+	margin-top: 4.5cm;
+	position: fixed;
+	display: table;
 }

@@ -8,6 +8,7 @@ body {
 	margin: 0;
 	padding: 0;
 	background-color: rgba(243,243,243,1);
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 input[type="checkbox"] {
@@ -205,6 +206,7 @@ h1 {
 	padding-left: 0.3cm;
 	padding-top: 0.2cm;
 	font-size: 18.5px;
+	padding-bottom: 0.5cm;
 }
 
 .themes {
@@ -321,4 +323,10 @@ button[type=Toppings] {
 
 .toppingsbutton:hover {
 	text-decoration: underline;
+}
+
+.ElliePillaiLove {
+	width: 45%;
+	border-radius: 15px;
+	float: left;
 }
