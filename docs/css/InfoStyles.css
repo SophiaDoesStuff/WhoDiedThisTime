@@ -175,3 +175,8 @@ p {
 	color: rgba(130,42,57,1);
 	font-weight: bold;
 }
+
+.MH {
+	text-align: center;
+	padding-bottom: 0.5cm;
+}

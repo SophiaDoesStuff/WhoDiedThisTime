@@ -30,6 +30,7 @@ nav {
 	height: 70px;
 	background-color: rgba(199,83,102,1);
 	border: 3px solid rgba(130,42,57,1);
+	z-index: 99;
 }
 
 nav ul {
@@ -143,10 +144,11 @@ main {
 p {
     margin-top: 1em;
 	font-size: 19px;
+	text-align: left;
 }
 
 .searchbox {
-	margin-top: 6cm;
+	margin-top: 7.5cm;
 	position: absolute;
 }
 
@@ -177,9 +179,32 @@ input[type=submit] {
 	display: flex;
     flex-direction: row;
     justify-content: center;
-    flex-wrap: wrap;
-    width: 100%;
-	margin-top: 4.5cm;
+	margin-top: 5cm;
+}
+
+.info3 {
+	display: flex;
+    flex-direction: row;
+    justify-content: left;
+    flex-wrap: nowrap;
+	margin-top: 0.5cm;
+	overflow: hidden;
+}
+
+figure {
+	flex-basis: 150px;
+	flex-grow: 1;
+	width: 100%;
+	margin-left: 1cm;
+	margin-top: 0.5cm;
+	display: flex;
+	align-items: center;
+}
+
+img {
+	width: 18%;
+	border: 2px solid rgb(78, 77, 77);
+	border-radius: 20px;
 }
 
 h2 {
@@ -191,12 +216,14 @@ h2 {
 
 .titles {
 	margin-top: 40px;
-	float: right;
+	float: left;
+	width: 50%;
 }
 
 .titlesright {
 	margin-top: 40px;
-	margin-left: 4cm;
+	float: right;
+	width: 50%;
 }
 
 .Ophelia {
@@ -211,3 +238,11 @@ h2 {
 	color: rgba(130,42,57,1);
 }
 
+.contact {
+	text-decoration: underline;
+	color: rgba(130,42,57,1);
+}
+
+.contact:hover {
+	font-weight: bold;
+}

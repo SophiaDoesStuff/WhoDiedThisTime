@@ -330,3 +330,41 @@ button[type=Toppings] {
 	border-radius: 15px;
 	float: left;
 }
+
+.ElliePillaiLove2 {
+	width: 45%;
+	border-radius: 15px;
+	float: right;
+}
+
+.ElliePillaiLove3 {
+	width: 45%;
+	border-radius: 15px;
+	margin-top: 7cm;
+	margin-left: -4.18cm;
+	float: left;
+}
+
+.ElliePillaiLove4 {
+	width: 45%;
+	border-radius: 15px;
+	margin-top: 0.66cm;
+	margin-left: 5cm;
+	float: right;
+}
+
+.ElliePillaiLove5 {
+	width: 45%;
+	border-radius: 15px;
+	margin-top: 0.6cm;
+	margin-left: 0cm;
+	float: left;
+}
+
+.ElliePillaiLove6 {
+	width: 45%;
+	border-radius: 15px;
+	margin-top: 0.6cm;
+	margin-left: 0cm;
+	float: right;
+}
