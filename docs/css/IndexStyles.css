@@ -115,7 +115,7 @@ nav ul li ul li {
 	color: rgb(161, 59, 76);
 	background-color: rgba(255, 255, 255, 0.837);
 	filter: drop-shadow(10px 10px 10px rgb(170, 169, 169));
-	padding: 0.5cm 0.5cm 0.5cm 0.5cm;
+	padding: 0.5cm 1cm 0.5cm 1cm;
 	border-radius: 30px;
 }
 
@@ -141,7 +141,7 @@ nav ul li ul li {
 	color: rgb(161, 59, 76);
 	background-color: rgba(255, 255, 255, 0.837);
 	filter: drop-shadow(10px 10px 10px rgb(170, 169, 169));
-	padding: 0.5cm 0.5cm 0.5cm 0.5cm;
+	padding: 0.5cm 1cm 0.5cm 1cm;
 	border-radius: 30px;
 }
 
