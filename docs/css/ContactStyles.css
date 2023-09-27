@@ -195,6 +195,7 @@ form {
 	input[type=email] {
 		width: 75%;
 		margin-left: 1cm;
+		margin-top: 3cm;
 	}
 
 	input[type=text] {
@@ -208,4 +209,9 @@ form {
 	}
 }
 
+@media screen and (max-width: 1000px) {
+	input[type=email] {
+		margin-top: 3cm;
+	}
+}
 

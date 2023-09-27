@@ -76,7 +76,7 @@ nav ul li ul li {
 	width: 8rem;
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 1000px) {
     nav ul {
         display: none;
         flex-direction: column;

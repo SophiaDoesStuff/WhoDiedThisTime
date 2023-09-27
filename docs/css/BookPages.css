@@ -453,6 +453,12 @@ button[type=Toppings] {
 		width: 170%;
 	}
 
+	.lesstheme {
+		font-size: 13px;
+		margin-left: -1cm;
+		width: 170%;
+	}
+
 	.details {
 		font-size: 14px;
 		margin-left: 8cm;

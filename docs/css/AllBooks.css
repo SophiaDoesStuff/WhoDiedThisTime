@@ -296,3 +296,13 @@ h2 {
 	}
 }
 
+@media screen and (max-width: 1000px) {
+	.searchbox {
+		position: relative;
+		margin-top: -0.5cm;
+	}
+
+	.titles {
+		margin-left: -1cm;
+	}
+}
