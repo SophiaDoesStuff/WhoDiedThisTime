@@ -182,7 +182,7 @@ a[type=top1]:hover {
 figure {
 	flex-basis: 350px;
 	flex-grow: 0;
-	width: 100;
+	width: 100%;
 	margin-left: 1cm;
 	margin-top: 0.5cm;
 }
@@ -325,6 +325,16 @@ button[type=Toppings] {
 	text-decoration: underline;
 }
 
+.contact {
+	text-decoration: underline;
+	color: rgba(130,42,57,1);
+}
+
+.contact:hover {
+	font-weight: bold;
+	font-size: 19px;
+}
+
 .ElliePillaiLove {
 	width: 45%;
 	border-radius: 15px;
@@ -391,4 +401,185 @@ button[type=Toppings] {
 	margin-top: 0.9cm;
 	margin-left: 1cm;
 	float: right;
+}
+
+@media screen and (max-width:600px) {
+	main {
+		flex-wrap: wrap;
+		width: 100%;
+		margin-left: 0cm;
+	}
+
+	.top {
+		font-size: 15px;
+		margin-left: -0.5cm;
+	}
+
+	img {
+		width: 55%;
+		margin-left: 2.5cm;
+	}
+
+	.info {
+		margin-right: 2cm;
+	}
+
+	.title {
+		font-size: 22px;
+	}
+
+	.writer {
+		font-size: 22px;
+	}
+
+	.summary {
+		font-size: 16px;
+		width: 100%
+	}
+
+	h1 {
+		display: none;
+	}
+
+	.themesheader {
+		font-size: 17px;
+		margin-top: 0.5cm;
+		margin-left: -0.5cm;
+	}
+
+	.themes {
+		font-size: 13px;
+		margin-left: -3.5cm;
+		width: 170%;
+	}
+
+	.details {
+		font-size: 14px;
+		margin-left: 8cm;
+	}
+
+	.sale {
+		margin-left: -1.5cm;
+	}
+	
+	button[type=Waterstones] {
+		background-color: white;
+		padding: 15px 18px;
+		font-size: 13px;
+		margin-right: 35px;
+		border-radius: 5cm;
+		border: 2px solid black;
+		cursor: pointer;
+		margin-bottom: 10px;
+	}
+	
+	button[type=Blackwells] {
+		background-color: white;
+		padding: 15px 18px;
+		font-size: 13px;
+		margin-right: 0px;
+		border-radius: 5cm;
+		border: 2px solid black;
+		cursor: pointer;
+	}
+	
+	button[type=MrB] {
+		background-color: white;
+		padding: 15px 18px;
+		font-size: 13px;
+		margin-right: 15px;
+		border-radius: 5cm;
+		border: 2px solid black;
+		cursor: pointer;
+	}
+	
+	button[type=Toppings] {
+		background-color: white;
+		padding: 15px 18px;
+		font-size: 13px;
+		margin-right: 0px;
+		border-radius: 5cm;
+		border: 2px solid black;
+		cursor: pointer;
+	}
+	
+	.toppingsbutton {
+		text-decoration: none;
+		color: black;
+		cursor: pointer;
+	}
+	
+	.toppingsbutton:hover {
+		text-decoration: underline;
+	}
+
+	.ElliePillaiLove {
+		width: 35%;
+		border-radius: 15px;
+		float: left;
+		margin-left: 0cm;
+	}
+	
+	.ElliePillaiLove2 {
+		width: 35%;
+		border-radius: 15px;
+		float: right;
+	}
+	
+	.ElliePillaiLove3 {
+		width: 35%;
+		border-radius: 15px;
+		margin-top: 6cm;
+		margin-left: -3.3cm;
+		float: left;
+	}
+	
+	.ElliePillaiLove4 {
+		width: 35%;
+		border-radius: 15px;
+		margin-top: 1.1cm;
+		margin-left: 5cm;
+		float: right;
+	}
+	
+	.ElliePillaiLove5 {
+		width: 35%;
+		border-radius: 15px;
+		margin-top: 0.6cm;
+		margin-left: 0cm;
+		float: left;
+	}
+	
+	.ElliePillaiLove6 {
+		width: 35%;
+		border-radius: 15px;
+		margin-top: 0.6cm;
+		margin-left: 0cm;
+		float: right;
+	}
+	
+	.ElliePillaiLove7 {
+		width: 35%;
+		border-radius: 15px;
+		margin-top: 6.5cm;
+		margin-left: -3.2cm;
+		float: left;
+	}
+	
+	.ElliePillaiLove8 {
+		width: 35%;
+		border-radius: 15px;
+		margin-top: 0.96cm;
+		margin-left: 0cm;
+		float: right;
+	}
+	
+	.ElliePillaiLove85 {
+		width: 35%;
+		border-radius: 15px;
+		margin-top: 0.9cm;
+		margin-left: 1cm;
+		float: right;
+	}
+
 }

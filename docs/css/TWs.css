@@ -30,6 +30,7 @@ nav {
 	height: 70px;
 	background-color: rgba(199,83,102,1);
 	border: 3px solid rgba(130,42,57,1);
+	z-index: 99;
 }
 
 nav ul {

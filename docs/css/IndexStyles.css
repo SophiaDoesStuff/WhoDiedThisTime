@@ -28,6 +28,7 @@ nav {
 	height: 70px;
 	background-color: rgba(199,83,102,1);
 	border: 3px solid rgba(130,42,57,1);
+	z-index: 99;
 }
 
 nav ul {
@@ -75,7 +76,7 @@ nav ul li ul li {
 	width: 8rem;
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 700px) {
     nav ul {
         display: none;
         flex-direction: column;
@@ -101,6 +102,10 @@ nav ul li ul li {
 	flex: 0 0 auto;
 	width: 100%;
 	}
+
+	.body {
+		overflow: hidden;
+	}
 }
 
 .centered {
@@ -121,11 +126,12 @@ nav ul li ul li {
 
 @media screen and (max-width: 900px) {
 	.centered {
-		padding-bottom: -10cm;
+		padding-bottom: -9cm;
 		justify-content: center;
-		font-size: 40px;
+		font-size: 30px;
 		font-style: italic;
 		white-space: nowrap;
+
 	}
 }
 
@@ -149,8 +155,24 @@ nav ul li ul li {
 	.undercentered {
 		padding-bottom: -10cm;
 		justify-content: center;
-		font-size: 25px;
+		font-size: 22px;
 		font-style: italic;
 		white-space: nowrap;
+		margin-top: -1.5cm;
+	}
+}
+
+@media screen and (max-width: 600px) {
+	.undercentered {
+		padding-bottom: -10cm;
+		justify-content: center;
+		font-size: 17px;
+		font-style: italic;
+		white-space: nowrap;
+		margin-top: -1cm;
+	}
+
+	.body {
+		overflow: hidden;
 	}
 }

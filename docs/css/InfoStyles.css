@@ -180,3 +180,25 @@ p {
 	text-align: center;
 	padding-bottom: 0.5cm;
 }
+
+@media screen and (max-width: 600px) {
+	h1 {
+		font-size: 23px;
+	}
+
+	h2 {
+		font-size: 23px;
+	}
+
+	h3 {
+		font-size: 23px;
+	}
+
+	p {
+		font-size: 17px;
+	}
+
+	.selfhelp {
+		font-size: 17px;
+	}
+}

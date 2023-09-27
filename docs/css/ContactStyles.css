@@ -180,3 +180,32 @@ form {
 	margin-top: 8cm;
 	position: absolute;
 }
+
+@media screen and (max-width: 600px) {
+	h1 {
+		font-size: 22px;
+	}
+
+	main {
+		flex-wrap: wrap;
+		width: 100%;
+		margin: auto;
+	}
+
+	input[type=email] {
+		width: 75%;
+		margin-left: 1cm;
+	}
+
+	input[type=text] {
+		width: 75%;
+		margin-left: 1cm;
+	}
+
+	button {
+		width: 75%;
+		margin-left: 1cm;
+	}
+}
+
+

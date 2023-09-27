@@ -8,7 +8,6 @@ body {
 	margin: 0;
 	padding: 0;
 	background-color: rgba(243,243,243,1);
-	min-width: 600px;
 	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
@@ -247,3 +246,53 @@ h2 {
 	font-weight: bold;
 	font-size: 19px;
 }
+
+@media screen and (max-width: 600px) {
+	h1 {
+		font-size: 25px;
+		flex-wrap: nowrap;
+	}
+
+	h2 {
+		font-size: 22px;
+	}
+
+	h3 {
+		font-size: 20px;
+	}
+
+	.searchbox {
+		position: relative;
+		margin-top: -0.5cm;
+		margin-left: 1.5cm;
+	}
+
+	input[type=text] {
+		width: 80%;
+		height: 70px;
+	}
+
+	input[type=submit] {
+		width: 80%;
+	}
+
+	main {
+		flex-wrap: wrap;
+		width: 100%;
+		margin: auto;
+	}
+
+	.titles {
+		margin-left: -1cm;
+	}
+
+	.titlesright{
+		margin-left: 0.1cm;
+	}
+
+	.Ophelia {
+		font-size: 16px;
+		flex-wrap: wrap;
+	}
+}
+
