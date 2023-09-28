@@ -8,8 +8,12 @@ body {
 	margin: 0;
 	padding: 0;
 	background-color: rgba(243,243,243,1);
-	min-width: 600px;
 	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+html {
+	scroll-behavior: smooth;
+	scroll-padding-top: 2cm;
 }
 
 input[type="checkbox"] {
@@ -54,18 +58,22 @@ nav ul li {
     display: block;
 	font-size: 20px;
 	white-space: nowrap;
+	z-index: 100%;
 }
 
 nav ul li a {
+	font-size: 20px;
     text-decoration: none;
     padding: 0.8rem 1rem;
     display: block;
     color: white;
+	z-index: 100%;
 }
 
 nav ul li a:hover {
     color: rgb(255, 183, 196);
     font-style: italic;
+	z-index: 100%;
 }
 
 nav ul li:hover ul {
@@ -122,12 +130,16 @@ h1 {
 	color: rgb(78, 77, 77);
 }
 
+h2 {
+	color: rgb(78, 77, 77);
+}
+
 main {
 	display: flex;
 	left: 80%;
-    flex-direction: row;
-    justify-content: center;
-    flex-wrap: nowrap;
+    flex-direction:column;
+    justify-content: left;
+    flex-wrap: wrap;
     width: 70%;
 	margin: auto;
 }
@@ -135,10 +147,8 @@ main {
 .info {
     color: black;
     padding: 1cm;
-    flex-basis: 0px;
     flex-grow: 1;
     font-size: 17px;
-	width: 50%;
 	justify-content: center;
 }
 
@@ -149,9 +159,8 @@ p {
 }
 
 .Warnings {
-	margin-top: 6cm;
-	position: fixed;
-	display: table;
+	margin-top: 0cm;
+	margin-left: 3cm;
 }
 
 .contact {
@@ -170,8 +179,46 @@ p {
 	color: black;
 }
 
+.category1 {
+	margin-top: 1cm;
+}
+
 .category:hover {
 	font-weight: bold;
 	text-decoration: none;
 	font-size: 19px;
 }
+
+.first {
+	padding-top: 1cm;
+}
+
+@media screen and (max-width:600px) {
+	h1 {
+		font-size: 23px;
+	}
+
+	h2 {
+		font-size: 20px;
+	}
+
+	h3 {
+		font-size: 20px;
+	}
+
+	p {
+		font-size: 13px;
+	}
+
+	main {
+		flex-wrap: wrap;
+		width: 100%;
+		margin: auto;
+	}
+
+	.Warnings {
+		margin-top: 0cm;
+		margin-left: 20px;
+		font-size: 18px;
+		}
+	}
